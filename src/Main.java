@@ -95,7 +95,7 @@ public class Main {
         };
         System.out.println("-----------------------------");
         for (Task10 employee : employees) {
-            if (employee.getAge() < 40) {
+            if (employee.getAge() > 40) {
                 employee.getEmployeeInfo();
             }
         }
@@ -189,18 +189,5 @@ public class Main {
         String result = Task17.getSourFlomaster(flomasterSet);
         System.out.println(result);
         System.out.println("-------------------------------------------------------------------");
-
-
-
-        StringBuilder stringBuilder = new StringBuilder("Hello");
-        System.out.println(stringBuilder);
-
-
-        StringBuffer stringBuffer = new StringBuffer("Hello");
-        System.out.println(stringBuffer.reverse());
-
-        String string = new String("Hello World");
-        System.out.println(string.replace("Hello", "By"));
-
     }
 }
